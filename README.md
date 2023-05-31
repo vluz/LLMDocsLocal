@@ -8,7 +8,7 @@ Mosaic ML https://mosaicml.com
 
 PDF documents in the `docs` folder are loaded into a Vectorstore
 
-The model can then answer questions about the ducuments it has ingested.
+The model can then answer questions about the ducument(s) it has ingested.
 
 There are two versions one CLI, and one based on Gradio
 
