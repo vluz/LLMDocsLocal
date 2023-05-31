@@ -8,7 +8,7 @@ Mosaic ML https://mosaicml.com
 
 PDF documents in the `docs` folder are loaded into a Vectorstore
 
-The model can then answer questions about the ducuments it has
+The model can then answer questions about the ducuments it has ingested.
 
 There are two versions one CLI, and one based on Gradio
 
@@ -30,4 +30,4 @@ pip install -r requirements.txt
 To run do:<br>
 `python answers.py` for the cli version
 <br>or
-`python answersgradio.py.py` for the Gradio version
+`python answersgradio.py` for the Gradio version
