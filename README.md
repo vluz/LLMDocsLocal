@@ -1,16 +1,22 @@
-# LLMDocsLocal
-### Use a local LLM to read and provide answers on local files
+# LLM your Docs Localy
+### Use a local Large Language Model to read and provide answers on your local files
 
-Uses https://huggingface.co/mosaicml/mpt-7b-instruct, a model from
+<hr>
+
+Uses https://huggingface.co/mosaicml/mpt-7b-instruct, a model published by
 <br>
 Mosaic ML https://mosaicml.com 
 
 
-PDF documents in the `docs` folder are loaded into a Vectorstore
+PDF documents in the `docs` folder are loaded into a vectorstore
+<br>
+Includes EDPannualreport.pdf as example. 
+<br>
+It is the Annual Report from EDP, a large company from the energy sector
 
 The model can then answer questions about the ducument(s) it has ingested.
 
-There are two versions one CLI, and one based on Gradio
+There are two versions one CLI, and one GUI based on Gradio
 
 <hr>
 
@@ -31,3 +37,5 @@ To run do:<br>
 `python answers.py` for the cli version
 <br>or
 `python answersgradio.py` for the Gradio version
+
+Note: Not tested, do not use for production
